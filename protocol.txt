@@ -1,0 +1,15 @@
+TSjaffa protocol
+
+Send to that which destnum represents.
+	@source:destnum COMMAND args
+
+Send command to #channel.
+	@source:;;#channel COMMAND args
+
+Send command to +w users.
+	@source:;;^* COMMAND args
+
+Special command.
+	% SPECCOMMAND args
+	Eg % SJOIN #channel TS membnum1:memb1modes,memb2:memb2modes,memb3:
+	   % BMASK #channel TS b :*!*@*
